@@ -1,0 +1,232 @@
+/*Body*/
+
+body{
+	background-color: lavender;
+}
+
+.grub{
+    text-align: center;
+    background-image: url(Pierrot1.png);
+}
+
+/*_____________________________________________________________*/
+
+/*Header_____________________________________________________________*/
+
+header{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+.header{
+    display: block;
+    margin-left: 2%;
+    margin-right: auto;
+    width: 96%;
+}
+
+/*_____________________________________________________________*/
+
+/*Main______________________________________________________________*/
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+/*Texte*/
+
+h1{
+    color: red;
+}
+
+h2{
+    text-align: center;
+    color: plum;
+}
+
+h3{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: gray;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: darkgray;
+}
+li{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: gray;
+}
+
+/*Video*/
+
+iframe.Trailer_A_Plague_Tale_Innocence{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 350px;
+}
+
+iframe.Trailer_Child_of_Light{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 350px;
+}
+
+/*Images*/
+
+.imagecontainer:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.flotte_gauche{
+    display: block;
+    float: left;
+    margin-left: -20%;
+    margin-right: auto;
+    width: 17%;
+    height: 30%;
+}
+.flotte_droit{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: -20%;
+    width: 17%;
+    height: 30%;
+}
+.personnages{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+}
+.imageseule{
+    display: block;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+    height: 60%;
+}
+.deuximagegauche{
+    float: left;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 44%;
+    height: 30%;
+}
+.deuximagedroite{
+    float: left;
+    margin-left: 2%;
+    margin-right: auto;
+    width: 44%;
+    height: 30%;
+}
+.troisimagegauche{
+    float: left;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 28%;
+    height: 20%;
+}
+.troisimagemilieu{
+    float: left;
+    margin-left: 3%;
+    margin-right: auto;
+    width: 28%;
+    height: 20%;
+}
+.troisimagedroite{
+    float: left;
+    margin-left: 3%;
+    margin-right: auto;
+    width: 28%;
+    height: 20%;
+}
+
+.stepbro{
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+    width: 70%;
+    height: 40%;
+}
+
+/*Liens*/
+
+a{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Bouton*/
+
+.boutonmain {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: powderblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #B0C4DE;
+}
+
+.boutonmain:hover {
+    background-color: skyblue;
+}
+
+.boutonmain:active {
+    background-color: cadetblue;
+    box-shadow: 0 5px #B0C4DE;
+    transform: translateY(4px);
+}
+
+.boutonfooter {
+    display: inline-block;
+    padding: 7px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: powderblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #B0C4DE;
+}
+
+.boutonfooter:hover {
+    background-color: skyblue;
+}
+
+.boutonfooter:active {
+    background-color: cadetblue;
+    box-shadow: 0 2px #B0C4DE;
+    transform: translateY(4px);
+}
+
+/*_____________________________________________________________*/
+
+/*footer_____________________________________________________________*/
+
+footer{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
